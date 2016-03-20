@@ -346,6 +346,7 @@
                 <input type="checkbox" name="coin2">
                 <input type="checkbox" name="coin3">
                 <input type="checkbox" name="coin4">
+                <hr>
         
 <!--Stash-->
         
