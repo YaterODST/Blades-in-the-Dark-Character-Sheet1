@@ -1,6 +1,7 @@
 <link href="BITDsheet.css" type="text/css" rel="stylesheet">
 <label class="sheet-label">
-    <input name="attr_expand" type="radio" value="1" class="sheet-expand" checked="true" />
+   <h1 style="text-align:center">BLADES IN THE DARK</h1>
+   <input name="attr_expand" type="radio" value="1" class="sheet-expand" checked="true" />
     <div class="sheet-tab">Character</div>
     <label class="sheet-label">
         <input name="attr_expand" type="radio" value="2" class="sheet-expand" />
@@ -14,12 +15,10 @@
                 
             </label>
             <div class="sheet-character-sheet sheet-show">
-                <h1 style="text-align:center">BLADES IN THE DARK</h1>
                 Crew Sheet Here!!!!
             </div>
         </label>
         <div class="sheet-character-sheet sheet-show">
-            <h1 style="text-align:center">BLADES IN THE DARK</h1>
             
 
 <!--Playbook-->    
@@ -242,7 +241,6 @@
         </div>
     </label>
     <div class="sheet-character-sheet sheet-show">
-        <h1 style="text-align:center">BLADES IN THE DARK</h1>
             <h1 style="text-align:left">Character</h1>
         <!--Character-->
                 
