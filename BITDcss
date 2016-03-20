@@ -1,4 +1,4 @@
-* { font-size: 12px; }
+
 
 .sheet-character-sheet,
 .sheet-expand
@@ -10,7 +10,6 @@
 .sheet-expand:checked ~ .sheet-show
 {
     display: block;
-    border: solid thin gray;
     background-color: transparent;
     margin: 1px 0px 0px -2px;
 }
