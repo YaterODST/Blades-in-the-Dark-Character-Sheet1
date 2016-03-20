@@ -1,0 +1,49 @@
+* { font-size: 12px; }
+
+.sheet-character-sheet,
+.sheet-expand
+{
+    display: none;
+    padding: 3px;
+}
+
+.sheet-expand:checked ~ .sheet-show
+{
+    display: block;
+    border: solid thin gray;
+    background-color: white;
+    margin: 1px 0px 0px -2px;
+}
+
+.sheet-tab
+{
+    display: inline-block;
+    text-align: center;
+    margin: -2px;
+    padding: 2px;
+    width: 64px;
+    height: 24px;
+    background-color: gray;
+    border-top-left-radius: 1em 3em;
+    border-top-right-radius: 1em 3em;
+    border: solid thin gray;
+    border-bottom: none;
+}
+
+.sheet-expand:checked ~ .sheet-tab
+{
+    background-color: white;
+}
+
+label
+{
+    display: inline;
+}
+
+label,
+label div
+{
+    font-size: 12px;
+    font-weight: normal;
+}
+
