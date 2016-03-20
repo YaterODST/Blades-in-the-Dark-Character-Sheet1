@@ -11,7 +11,7 @@
 {
     display: block;
     border: solid thin gray;
-    background-color: white;
+    background-color: transparent;
     margin: 1px 0px 0px -2px;
 }
 
