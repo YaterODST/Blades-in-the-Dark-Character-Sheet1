@@ -1,7 +1,5 @@
-<link href="BITDsheet.css" type="text/css" rel="stylesheet">
 <label class="sheet-label">
-   <h1 style="text-align:center">BLADES IN THE DARK</h1>
-   <input name="attr_expand" type="radio" value="1" class="sheet-expand" checked="true" />
+    <input name="attr_expand" type="radio" value="1" class="sheet-expand" checked="true" />
     <div class="sheet-tab">Character</div>
     <label class="sheet-label">
         <input name="attr_expand" type="radio" value="2" class="sheet-expand" />
@@ -15,10 +13,153 @@
                 
             </label>
             <div class="sheet-character-sheet sheet-show">
-                Crew Sheet Here!!!!
+                <h1 style="text-align:center">BLADES IN THE DARK</h1>
+                <h1>Crew Sheet</h1>
+<div class="sheet-3colrow">
+    <div class="sheet-col">
+        <br>
+        <input type="text" name="crew-type" placeholder="Crew Type">
+        <br>
+        <input type="text" name="crew-name" placeholder="Crew Name">
+        <input type="text" name="crew-rep" placeholder="Reputation">
+        <br>
+        <input type=text name="crew-lair" placeholder="Lair">
+        <br>
+        Heat<input type="number" class="sheet-heat" name="crew-heat" min="0" max="9" value="0"> /9
+        Wanted Level<input type="number" class="sheet-wanted-level" name="crew-wanted-level" min="0" max="4" value="0"> /4
+        <br>
+        Coin<input type="checkbox" name="crew-coin1">
+        <input type="checkbox" name="crew-coin2">
+        <input type="checkbox" name="crew-coin3">
+        <input type="checkbox" name="crew-coin4">
+        Vaults<input type="checkbox" name="crew-vault1">
+        <input type="checkbox" name="crew-vault2">
+        <input type="checkbox" name="crew-vault3">
+        <input type="checkbox" name="crew-vault4">
+        <input type="checkbox" name="crew-vault5">
+        <input type="checkbox" name="crew-vault6">
+        <input type="checkbox" name="crew-vault7">
+        <input type="checkbox" name="crew-vault8">
+        
+        
+        
+        Turf<input type="number" class="sheet-turf" name="crew-turf" min="0" max="9" value="0">
+         Rep<input type="number" class="sheet-rep" name="crew-rep" min="0" max="9" value="0">
+        <br>
+        Hold-&nbsp; Weak<input type="radio" name="crew-hold" value="weak">
+        &nbsp;Firm<input type="radio" name="crew-hold" value="firm">
+        &nbsp;Strong<input type="radio" name="crew-hold" value="strong">
+        <br>
+        Tier-&nbsp; 1<input type="radio" name="attr-tier">
+        &nbsp; 2<input type="radio" name="attr-tier">
+        &nbsp; 3<input type="radio" name="attr-tier">
+        &nbsp; 4<input type="radio" name="attr-tier">
+        
+        <br>
+    </div>
+    <div class="sheet-col">
+       Crew Advancement&nbsp;<input type="checkbox" name="sheet-crew-adv1"> 
+        <input type="checkbox" name="sheet-crew-adv2"> 
+        <input type="checkbox" name="sheet-crew-adv3"> 
+        <input type="checkbox" name="sheet-crew-adv4"> 
+        <input type="checkbox" name="sheet-crew-adv5"> 
+        <input type="checkbox" name="sheet-crew-adv6"> 
+        <input type="checkbox" name="sheet-crew-adv7"> 
+        <input type="checkbox" name="sheet-crew-adv8"> 
+        <br>
+        <input type="text" name="sheet-crew-advdesc1" placeholder="Crew Specific Goal">
+        <input type="text" name="sheet-crew-advdesc2" placeholder="Crew Specific Goal">
+        <input type="text" name="sheet-crew-advdesc3" placeholder="Crew Specific Goal">
+        <input type="text" name="sheet-crew-advdesc4" placeholder="Crew Specific Goal">
+        
+        
+    </div>
+    
+    <div class="sheet-container">
+    <img src="http://i65.tinypic.com/2mmajp5.png">
+    <div class="sheet-tag">
+        <input type="checkbox" name="crew-checkbox">
+    </div>
+    <div class="sheet-tag2">
+        <input type="checkbox" name="crew-checkbox2">
+    </div>
+    <div class="sheet-tag3">
+        <input type="checkbox" name="crew-checkbox3">
+    </div>
+    <div class="sheet-tag4">
+        <input type="checkbox" name="crew-checkbox4">
+    </div>
+    <div class="sheet-tag5">
+        <input type="checkbox" name="crew-checkbox5">
+    </div>
+    <div class="sheet-tag6">
+        <input type="checkbox" name="crew-checkbox6">
+    </div>
+    <div class="sheet-tag7">
+        <input type="checkbox" name="crew-checkbox7">
+    </div>
+    <div class="sheet-tag8">
+        <input type="checkbox" name="crew-checkbox8">
+    </div>
+    <div class="sheet-tag9">
+        <input type="checkbox" name="crew-checkbox9">
+    </div>
+    <div class="sheet-tag10">
+        <input type="checkbox" name="crew-checkbox10">
+    </div>
+    <div class="sheet-tag11">
+        <input type="checkbox" name="crew-checkbox11">
+    </div>
+    <div class="sheet-tag12">
+        <input type="checkbox" name="crew-checkbox12">
+    </div>
+    <div class="sheet-tag13">
+        <input type="checkbox" name="crew-checkbox13">
+    </div>
+    <div class="sheet-tag14">
+        <input type="checkbox" name="crew-checkbox14">
+    </div>
+</div>
+    
+    
+</div> 
+
+	<div class='sheet-2colrow'>
+		<div class='sheet-col'>
+            <h2>Special Abilities</h2>
+            <fieldset class="repeating_specialabilities">
+			<input type="checkbox" name="attr_trained">
+			<input type="text" name="attr_specAbilityName" placeholder="Ability Name">
+            <textarea name="attr_specAbilityDesc" placeholder="Ability Description"></textarea>
+            </fieldset>
+		</div>
+        <div class="sheet-col">
+            <h2>Cohorts</h2>
+            <fieldset class="repeating_cohort">
+                Quality&nbsp;<input type="radio" name="attr-quality" checked="true">
+                <input type="radio" name="attr-quality">
+                <input type="radio" name="attr-quality">
+                <input type="radio" name="attr-quality">
+                <br>
+                Weak<input type="checkbox" name="attr-cohort-harm-weak">
+                Impared<input type="checkbox" name="attr-cohort-harm-impared">
+                Broken<input type="checkbox" name="attr-cohort-harm-broken">&nbsp;
+                Armor<input type="checkbox" name="attr-cohort-armor">
+                <br>
+                <input type="text" name="sheet-cohort-notes">
+
+            </fieldset>
+        </div>
+	</div>
+
+<br>
+                
+                
+                
             </div>
         </label>
         <div class="sheet-character-sheet sheet-show">
+            <h1 style="text-align:center">BLADES IN THE DARK</h1>
             
 
 <!--Playbook-->    
@@ -241,6 +382,7 @@
         </div>
     </label>
     <div class="sheet-character-sheet sheet-show">
+        <h1 style="text-align:center">BLADES IN THE DARK</h1>
             <h1 style="text-align:left">Character</h1>
         <!--Character-->
                 
@@ -344,7 +486,6 @@
                 <input type="checkbox" name="coin2">
                 <input type="checkbox" name="coin3">
                 <input type="checkbox" name="coin4">
-                <hr>
         
 <!--Stash-->
         
