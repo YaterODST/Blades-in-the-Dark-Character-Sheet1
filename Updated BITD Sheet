@@ -26,7 +26,26 @@
         <br>
         <input type=text name="crew-lair" placeholder="Lair">
         <br>
-        Heat<input type="number" class="sheet-heat" name="crew-heat" min="0" max="9" value="0"> /9
+    </div>
+    <div class="sheet-col">
+       Crew Advancement&nbsp;<input type="checkbox" name="sheet-crew-adv1"> 
+        <input type="checkbox" name="sheet-crew-adv2"> 
+        <input type="checkbox" name="sheet-crew-adv3"> 
+        <input type="checkbox" name="sheet-crew-adv4"> 
+        <input type="checkbox" name="sheet-crew-adv5"> 
+        <input type="checkbox" name="sheet-crew-adv6"> 
+        <input type="checkbox" name="sheet-crew-adv7"> 
+        <input type="checkbox" name="sheet-crew-adv8"> 
+        <br>
+        <input type="text" name="sheet-crew-advdesc1" placeholder="Crew Specific Goal">
+        <input type="text" name="sheet-crew-advdesc2" placeholder="Crew Specific Goal">
+        <input type="text" name="sheet-crew-advdesc3" placeholder="Crew Specific Goal">
+        <input type="text" name="sheet-crew-advdesc4" placeholder="Crew Specific Goal">
+        
+        
+    </div>
+    <div class="sheet-col">
+    Heat<input type="number" class="sheet-heat" name="crew-heat" min="0" max="9" value="0"> /9
         Wanted Level<input type="number" class="sheet-wanted-level" name="crew-wanted-level" min="0" max="4" value="0"> /4
         <br>
         Coin<input type="checkbox" name="crew-coin1">
@@ -55,25 +74,7 @@
         &nbsp; 2<input type="radio" name="attr-tier">
         &nbsp; 3<input type="radio" name="attr-tier">
         &nbsp; 4<input type="radio" name="attr-tier">
-        
-        <br>
     </div>
-    <div class="sheet-col">
-       Crew Advancement&nbsp;<input type="checkbox" name="sheet-crew-adv1"> 
-        <input type="checkbox" name="sheet-crew-adv2"> 
-        <input type="checkbox" name="sheet-crew-adv3"> 
-        <input type="checkbox" name="sheet-crew-adv4"> 
-        <input type="checkbox" name="sheet-crew-adv5"> 
-        <input type="checkbox" name="sheet-crew-adv6"> 
-        <input type="checkbox" name="sheet-crew-adv7"> 
-        <input type="checkbox" name="sheet-crew-adv8"> 
-        <br>
-        <input type="text" name="sheet-crew-advdesc1" placeholder="Crew Specific Goal">
-        <input type="text" name="sheet-crew-advdesc2" placeholder="Crew Specific Goal">
-        <input type="text" name="sheet-crew-advdesc3" placeholder="Crew Specific Goal">
-        <input type="text" name="sheet-crew-advdesc4" placeholder="Crew Specific Goal">
-        
-        
     </div>
     
     <div class="sheet-container">
@@ -123,7 +124,7 @@
 </div>
     
     
-</div>
+
 
     <div class='sheet-2colrow'>
 		<div class='sheet-col'>
