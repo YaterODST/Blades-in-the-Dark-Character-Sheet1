@@ -46,3 +46,161 @@ label div
     font-weight: normal;
 }
 
+.sheet-container {
+   width: 535px;
+   height: 243px;
+   position: relative;
+}
+.sheet-tag {
+   float: left;
+   position: absolute;
+   left: -2px;
+   top: 53px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag2 {
+    float: left;
+   position: absolute;
+   left: 108px;
+   top: 53px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag3 {
+    float: left;
+   position: absolute;
+   left: 217px;
+   top: 53px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag4 {
+   float: left;
+   position: absolute;
+   left: 325px;
+   top: 53px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold; 
+}
+
+.sheet-tag5 {
+     float: left;
+   position: absolute;
+   left: 434px;
+   top: 53px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold; 
+}
+
+.sheet-tag6 {
+    float: left;
+   position: absolute;
+   left: -2px;
+   top: 137px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag7 {
+    float: left;
+   position: absolute;
+   left: 108px;
+   top: 137px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag8 {
+    float: left;
+   position: absolute;
+   left: 325px;
+   top: 137px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag9 {
+    float: left;
+   position: absolute;
+   left: 435px;
+   top: 137px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag10 {
+     float: left;
+   position: absolute;
+   left: 435px;
+   top: 220px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag11 {
+    float: left;
+   position: absolute;
+   left: 325px;
+   top: 220px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag12 {
+     float: left;
+   position: absolute;
+   left: 217px;
+   top: 220px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold;
+}
+
+.sheet-tag13 {
+   float: left;
+   position: absolute;
+   left: 108px;
+   top: 220px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold; 
+}
+
+.sheet-tag14 {
+    float: left;
+   position: absolute;
+   left: -2px;
+   top: 220px;
+   z-index: 1000;
+   padding: 5px;
+   color: #FFFFFF;
+   font-weight: bold; 
+}
