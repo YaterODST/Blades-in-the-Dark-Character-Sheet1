@@ -1,4 +1,3 @@
-<link href="BITDsheet.css" type="text/css" rel="stylesheet">
  <h1 style="text-align:center">BLADES IN THE DARK</h1>
 <label class="sheet-label">
     <input name="attr_expand" type="radio" value="1" class="sheet-expand" checked="true" />
