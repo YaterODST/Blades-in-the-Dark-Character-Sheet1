@@ -1,3 +1,5 @@
+<link href="BITDsheet.css" type="text/css" rel="stylesheet">
+ <h1 style="text-align:center">BLADES IN THE DARK</h1>
 <label class="sheet-label">
     <input name="attr_expand" type="radio" value="1" class="sheet-expand" checked="true" />
     <div class="sheet-tab">Character</div>
@@ -13,9 +15,9 @@
                 
             </label>
             <div class="sheet-character-sheet sheet-show">
-                <h1 style="text-align:center">BLADES IN THE DARK</h1>
+            
                 <h1>Crew Sheet</h1>
-<div class="sheet-3colrow">
+<div class='sheet-3colrow'>
     <div class="sheet-col">
         <br>
         <input type="text" name="crew-type" placeholder="Crew Type">
@@ -122,11 +124,15 @@
 </div>
     
     
-</div> 
+</div>
 
-	<div class='sheet-2colrow'>
+    <div class='sheet-2colrow'>
 		<div class='sheet-col'>
             <h2>Special Abilities</h2>
+            <input type="checkbox" name="attr_trained">
+			<input type="text" name="attr_specAbilityName" placeholder="Ability Name">
+            <textarea name="attr_specAbilityDesc" placeholder="Ability Description"></textarea>
+            <br>
             <fieldset class="repeating_specialabilities">
 			<input type="checkbox" name="attr_trained">
 			<input type="text" name="attr_specAbilityName" placeholder="Ability Name">
@@ -135,31 +141,150 @@
 		</div>
         <div class="sheet-col">
             <h2>Cohorts</h2>
-            <fieldset class="repeating_cohort">
-                Quality&nbsp;<input type="radio" name="attr-quality" checked="true">
-                <input type="radio" name="attr-quality">
-                <input type="radio" name="attr-quality">
-                <input type="radio" name="attr-quality">
+            Quality&nbsp;<input type="radio" name="attr-quality" checked="true">&nbsp;
+                <input type="radio" name="attr-quality">&nbsp;
+                <input type="radio" name="attr-quality">&nbsp;
+                <input type="radio" name="attr-quality">&nbsp;
                 <br>
                 Weak<input type="checkbox" name="attr-cohort-harm-weak">
                 Impared<input type="checkbox" name="attr-cohort-harm-impared">
                 Broken<input type="checkbox" name="attr-cohort-harm-broken">&nbsp;
                 Armor<input type="checkbox" name="attr-cohort-armor">
                 <br>
-                <input type="text" name="sheet-cohort-notes">
+                <input type="text" name="sheet-cohort-notes" placeholder="Cohort Name">
+            <br>
+            <fieldset class="repeating_cohort">
+                Quality&nbsp;<input type="radio" name="attr-quality" checked="true">&nbsp;
+                <input type="radio" name="attr-quality">&nbsp;
+                <input type="radio" name="attr-quality">&nbsp;
+                <input type="radio" name="attr-quality">&nbsp;
+                <br>
+                Weak<input type="checkbox" name="attr-cohort-harm-weak">
+                Impared<input type="checkbox" name="attr-cohort-harm-impared">
+                Broken<input type="checkbox" name="attr-cohort-harm-broken">&nbsp;
+                Armor<input type="checkbox" name="attr-cohort-armor">
+                <br>
+                <input type="text" name="sheet-cohort-notes" placeholder="Cohort Name">
 
             </fieldset>
         </div>
 	</div>
+<div class="sheet-3colrow">
+    <div class="sheet-col">
+        <h4>Crew Upgrades</h4>
+        <input type="checkbox" name="sheet-crew-upgrd">
+            <input type="text" name="sheet-crew-upgrades" placeholder="Upgrade Name">
+        <br>
+        <fieldset class="repeating_crew_upgrades">
+           <input type="checkbox" name="sheet-crew-upgrd">
+            <input type="text" name="sheet-crew-upgrades" placeholder="Upgrade Name">
+        </fieldset>
+    </div>
+
+    
+
+    
+    <div class="sheet-col">
+        <h4>Hunting Grounds</h4>
+        <input type="text" name="sheet-crew-huntinggrounds" placeholder="Hunting Ground Loacation">&nbsp;&nbsp;
+            Quality&nbsp;<input type="radio" name="sheet-crew-huntquality1">&nbsp;
+            <input type="radio" name="sheet-crew-huntquality2">&nbsp;
+            <input type="radio" name="sheet-crew-huntquality3">&nbsp;
+            <input type="radio" name="sheet-crew-huntqualit4">&nbsp;
+        <br>
+        <fieldset class="repeating_crew_huntinggrounds">
+            <input type="text" name="sheet-crew-huntinggrounds" placeholder="Hunting Ground Loacation">&nbsp;&nbsp;
+            Quality&nbsp;<input type="radio" name="sheet-crew-huntquality1">&nbsp;
+            <input type="radio" name="sheet-crew-huntquality2">&nbsp;
+            <input type="radio" name="sheet-crew-huntquality3">&nbsp;
+            <input type="radio" name="sheet-crew-huntqualit4">&nbsp;
+        </fieldset>
+    </div>
+    <div class="sheet-col">
+        <h4>Contacts</h4>
+        <input type="text" name="sheet-crew-contacts" placeholder="Contact name">
+        <br>
+        <fieldset class="repeating_contacts">
+            <input type="text" name="sheet-crew-contacts" placeholder="Contact name">
+        </fieldset>
+        
+    </div>
+    
+</div>
+<div class="sheet-2colrow">
+    <div class="sheet-col">
+        <div class="sheet-2colrow">
+        <div class="sheet-col">
+     <h5>Lair</h5>
+        <input type="checkbox" name="sheet-crew-upgrades1">
+        <input type="checkbox" name="sheet-crew-upgrades1">Carriage
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades1">
+        <input type="checkbox" name="sheet-crew-upgrades1">Boat
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades1">Hidden
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades1">Quarters
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades1">
+        <input type="checkbox" name="sheet-crew-upgrades1">Secure
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades1">
+        <input type="checkbox" name="sheet-crew-upgrades1">Vault
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades1">Workshop
+        <br>
+        <h5>Training</h5>
+        <input type="checkbox" name="sheet-crew-upgrades">Insight
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Prowess
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Resolve
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Personal
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">
+        <input type="checkbox" name="sheet-crew-upgrades">Mastery
+    </div>
+    <div class="sheet-col">
+        <h5>Quality</h5>
+        <input type="checkbox" name="sheet-crew-upgrades">Documents
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Gear
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Implements
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Pet/Special
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Supplies
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Tools
+        <br>
+        <input type="checkbox" name="sheet-crew-upgrades">Weapons
+        <br>
+        <h5>Cohorts:</h5>
+        <h6>Upgrade Costs</h6>
+            <ul>
+                <li>New Cohorts: 2</li>
+                <li>+1 Quality: 2</li>
+                <li>Add Type: 1</li>
+                <li>Add Edge: 1</li>
+                <li>Remove Flaw: 1</li>
+            </ul>
+    </div>
+        
+    </div>
+</div>
+                </div>
+<textarea name="sheet-crew-notes" placeholder="Crew Notes"></textarea>
 
 <br>
                 
                 
                 
-            </div>
+            
         </label>
         <div class="sheet-character-sheet sheet-show">
-            <h1 style="text-align:center">BLADES IN THE DARK</h1>
             
 
 <!--Playbook-->    
@@ -213,9 +338,9 @@
     <div class="sheet-col">
     <h2>Standard Items</h2>
         <hr width="100%">
-        <input type="radio" name="load-light">3 light
-        <input type="radio" name="load-normal">5 normal
-        <input type="radio" name="load-heavy">6 heavy
+        <input type="radio" name="attr-load">3 light
+        <input type="radio" name="attr-load">5 normal
+        <input type="radio" name="attr-load">6 heavy
         <br>
         <hr width="100%">
         <input type="checkbox" name="standard-items">A Blade or Two
@@ -382,7 +507,6 @@
         </div>
     </label>
     <div class="sheet-character-sheet sheet-show">
-        <h1 style="text-align:center">BLADES IN THE DARK</h1>
             <h1 style="text-align:left">Character</h1>
         <!--Character-->
                 
@@ -412,6 +536,8 @@
                 <input type="checkbox" name="stress7" value="1">
                 <input type="checkbox" name="stress8" value="1">
                 <input type="checkbox" name="stress9" value="1">
+        
+        
                 
         
     </div>
@@ -432,56 +558,37 @@
          <input type="checkbox" name="trait-haunted" value="haunted">Haunted
          <input type="checkbox" name="trait-obsessed" value="obsessed">Obsessed
                 <input type="checkbox" name="trait-paraniod" value="paraniod">Paraniod
-                <hr width="100%">
+         <hr>
                 <input type="checkbox" name="trait-reckless" value="reckless">Reckless
                 <input type="checkbox" name="trait-soft" value="soft">Soft
                 <input type="checkbox" name="trait-unstable" value="unstable">Unstable
                 <input type="checkbox" name="trait-vicious" value="vicious">Vicious
+         <br>
+         
     </div> 
 </div>
 
 <!--Harm, Armor, and Coin-->
-
-        
-            <h2>Harm</h2>
-                <input type="text" name="harm3">Need Help<br>
-                <input type="text" name="harm2">
-                <input type="text" name="harm2">-1d<br>
-                <input type="text" name="harm1">
-                <input type="text" name="harm1">Less Effect<br>
-                    
-    
-        
-        
-<!--Recovery-->
-<div class="sheet-3colrow">
+<div class="sheet-2colrow">
     <div class="sheet-col">
-       
-        <input type="checkbox" name="attr_recovery1" class="sheet-recovery">
-        <input type="checkbox" name="attr_recovery2" class="sheet-recovery">
-        <input type="checkbox" name="attr_recovery3" class="sheet-recovery">
-        <input type="checkbox" name="attr_recovery4" class="sheet-recovery">
-        <input type="checkbox" name="attr_recovery5" class="sheet-recovery">
-        <input type="checkbox" name="attr_recovery6" class="sheet-recovery">
-        <input type="checkbox" name="attr_recovery7" class="sheet-recovery">
-        <input type="checkbox" name="attr_recovery8" class="sheet-recovery">Recovery
+                <h2>Harm</h2>
+                <h5>Need Help</h5>
+                    <input type="text" name="harm3">
+                    <br>
+                    <hr>
+                <h5>-1d</h5>
+                    <input type="text" name="harm2">
+                    <input type="text" name="harm2">
+                    <br>
+                    <hr>
+                <h5>Less Effect</h5>
+                    <input type="text" name="harm1">
+                    <input type="text" name="harm1">
+                    <br>
+                    <hr>
     </div>
-      
-<!--Armor-->
-    
     <div class="sheet-col">
-            <input type="checkbox" name="armor">Armor
-            <input type="checkbox" name="armor">+Heavy<br>
-            <input type="checkbox" name="armor-special">
-            <input type="text"  name="armor-special"placeholder="Special Armor"><br>
-            <input type="checkbox" name="armor-other-special">
-            <input type="text"  name="armor-special" placeholder="Other Special Armor"> 
-            
-    </div>   
-<!--Coin-->
-    
-    <div class="sheet-col">    
-            <h3>Coin</h3>
+         <h3>Coin</h3>
                 <input type="checkbox" name="coin1">
                 <input type="checkbox" name="coin2">
                 <input type="checkbox" name="coin3">
@@ -500,7 +607,7 @@
                 <input type="checkbox" name="stash8">
                 <input type="checkbox" name="stash9">
                 <input type="checkbox" name="stash10">Poor Soul<br>
-                <hr width="100%">
+                <hr>
                 <input type="checkbox" name="stash11">
                 <input type="checkbox" name="stash12">
                 <input type="checkbox" name="stash13">
@@ -511,7 +618,7 @@
                 <input type="checkbox" name="stash18">
                 <input type="checkbox" name="stash19">
                 <input type="checkbox" name="stash20">Meager<br>
-                <hr width="100%">
+                <hr>
                 <input type="checkbox" name="stash21">
                 <input type="checkbox" name="stash22">
                 <input type="checkbox" name="stash23">
@@ -522,7 +629,7 @@
                 <input type="checkbox" name="stash28">
                 <input type="checkbox" name="stash29">
                 <input type="checkbox" name="stash30">Modest<br>
-                <hr width="100%">
+                <hr>
                 <input type="checkbox" name="stash31">
                 <input type="checkbox" name="stash32">
                 <input type="checkbox" name="stash33">
@@ -532,9 +639,36 @@
                 <input type="checkbox" name="stash37">
                 <input type="checkbox" name="stash38">
                 <input type="checkbox" name="stash39">
-                <input type="checkbox" name="stash40">Fine<br>
+                <input type="checkbox" name="stash40">Fine<br>   
     </div>
- </div>
+</div>
+<div class="sheet-2colrow">
+    <div class="sheet-col">
+            
+        <input type="checkbox" name="attr_recovery1" class="sheet-recovery">
+        <input type="checkbox" name="attr_recovery2" class="sheet-recovery">
+        <input type="checkbox" name="attr_recovery3" class="sheet-recovery">
+        <input type="checkbox" name="attr_recovery4" class="sheet-recovery">
+        <input type="checkbox" name="attr_recovery5" class="sheet-recovery">
+        <input type="checkbox" name="attr_recovery6" class="sheet-recovery">
+        <input type="checkbox" name="attr_recovery7" class="sheet-recovery">
+        <input type="checkbox" name="attr_recovery8" class="sheet-recovery">Recovery
+        <br>
+                 <input type="checkbox" name="armor">Armor&nbsp;
+            <input type="checkbox" name="armor">+Heavy<br>
+            <input type="checkbox" name="armor-special">
+            <input type="text"  name="armor-special"placeholder="Special Armor"><br>
+            <input type="checkbox" name="armor-other-special">
+            <input type="text"  name="armor-special" placeholder="Other Special Armor"> 
+    </div>
+           
+</div>
+                    
+    
+        
+        
+
+
 <!--Skills--> 
     <div class="sheet-3colrow">
     <hr>
