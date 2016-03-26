@@ -290,54 +290,29 @@
 <!--Playbook-->    
 <h1 style="text-align:left">Playbook</h1>
     <input type="text" name="playbook-title" placeholder="Playbook Name">
-
-    
+<hr>
 <div class="sheet-3colrow">
-    <div class="sheet-col">
-<!--Special Abilities--> 
-    <h2>Special Abilities</h2>  
-        <hr width="100%">
-        <input type="checkbox" name="special-abilities-name1">
-        <input type="text" name="special-abilities-name1" placeholder="Ability Name"><br>
-       <input type="checkbox" name="special-abilities-name2">
-        <input type="text" name="special-abilities-name2" placeholder="Ability Name"><br>
-       <input type="checkbox" name="special-abilities-name3">
-        <input type="text" name="special-abilities-name3" placeholder="Ability Name"><br>
-        <input type="checkbox" name="special-abilities-name4">
-        <input type="text" name="special-abilities-name4" placeholder="Ability Name"><br>
-        <input type="checkbox" name="special-abilities-name5">
-        <input type="text" name="special-abilities-name5" placeholder="Ability Name"><br>
-        <input type="checkbox" name="special-abilities-name6">
-        <input type="text" name="special-abilities-name6" placeholder="Ability Name"><br>
-        <input type="checkbox" name="special-abilities-name7">
-        <input type="text" name="special-abilities-name7" placeholder="Ability Name"><br>
-        <input type="checkbox" name="special-abilities-name8">
-        <input type="text" name="special-abilities-name8" placeholder="Ability Name"><br>
-        <input type="checkbox" name="special-abilities-name9">
-        <input type="text" name="special-abilities-name9" placeholder="Ability Name"><br>
-        <input type="checkbox" name="special-abilities-name10">
-        <input type="text" name="special-abilities-name10" placeholder="Ability Name"><br>
+ <!--Abilities-->   
+   
+     <div class="sheet-col">
+         <h2>Special Abilities</h2>
+         <hr>
+         <input type="checkbox" name="specia-abilities-name1">
+             <input type="text" name="special-abilities-name1" placeholder="Ability Name"><br>
+                <textarea name="special-abilities-description1" placeholder="Ability Description"></textarea>
+         <br>
+         <fieldset class="repeating_abilities">
+            <input type="checkbox" name="specia-abilities-name1">
+             <input type="text" name="special-abilities-name1" placeholder="Ability Name"><br>
+                <textarea name="special-abilities-description1" placeholder="Ability Description"></textarea>
+        </fieldset>
     </div>
-    <div class="sheet-col">
-        <br>
-        <br>
-        <hr width="100%">
-        
-        <input type="text" name="special-abilities-description1" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description2" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description3" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description4" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description5" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description6" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description7" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description8" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description9" placeholder="Ability Description">
-        <input type="text" name="special-abilities-description10" placeholder="Ability Description">
-    </div>
+       
+   
     <!--Items--> 
     <div class="sheet-col">
     <h2>Standard Items</h2>
-        <hr width="100%">
+        <hr>
         <input type="radio" name="attr-load">3 light
         <input type="radio" name="attr-load">5 normal
         <input type="radio" name="attr-load">6 heavy
@@ -375,35 +350,35 @@
         <input type="checkbox" name="standard-items">
         <input type="checkbox" name="standard-items">
         <input type="text" name="standard-items">
-        
-        
-    </div>
-</div>
-    <hr>
-<!--Friends-->    
-<div class="sheet-2colrow">
-    <div class="sheet-col">
-        <h2>Dangerous Friends</h2>
         <hr>
-            -&nbsp;<input type="checkbox" name="dangerous-friends1">
-                <input type="text" name="dangerous-friends1">
-           +&nbsp;<input type="checkbox" name="dangerous-friends1">
+        <h3>Alchemicals</h3>
+        <hr>
+<!--Alchemicals-->
+        Bandolier<input type="checkbox" name="bandolier1">
+         <input type="checkbox" name="bandolier2">
+         <input type="checkbox" name="bandolier3">
         <br>
-            -&nbsp;<input type="checkbox" name="dangerous-friends2">
-                <input type="text" name="dangerous-friends2">
-            +&nbsp;<input type="checkbox" name="dangerous-friends2">
+         Bandolier<input type="checkbox" name="bandolier4">
+         <input type="checkbox" name="bandolier5">
+         <input type="checkbox" name="bandolier6">
         <br>
-            -&nbsp;<input type="checkbox" name="dangerous-friends3">
-                <input type="text" name="dangerous-friends3">
-            +&nbsp;<input type="checkbox" name="dangerous-friends3">
-        <br>
-            -&nbsp;<input type="checkbox" name="dangerous-friends4">
-                <input type="text" name="dangerous-friends4">
-            +&nbsp;<input type="checkbox" name="dangerous-friends4">
-        <br>
-            -&nbsp;<input type="checkbox" name="dangerous-friends5">
-                <input type="text" name="dangerous-friends5">
-            +&nbsp;<input type="checkbox" name="dangerous-friends5">
+        <p><em>When you use a bandolier vial, choose an alchemical</em></p>
+        <ul>
+            <li>Alcahest</li>
+            <li>Binding Oil</li>
+            <li>Chokedust Poison</li>
+            <li>Drift Oil</li>
+            <li>Eyeblind Oil</li>
+            <li>Fire Oil</li>
+            <li>Frost Oil</li>
+            <li>Ghost Oil</li>
+            <li>Quicksilver</li>
+            <li>Rage Essence</li>
+            <li>Shadow Essence</li>
+            <li>Spark Drug</li>
+            <li>Trance Powder</li>
+        </ul>
+        
     </div>
     <!--Special Items--> 
     <div class="sheet-col">
@@ -413,27 +388,27 @@
         <input type="checkbox" name="special-items1">
         <input type="text" name="special-items1">
         <br>
-        <input type="checkbox" name="special-items2">
-        <input type="checkbox" name="special-items2">
-        <input type="text" name="special-items2">
+        <fieldset class="repeating_items">
+        <input type="checkbox" name="special-items1">
+        <input type="checkbox" name="special-items1">
+        <input type="text" name="special-items1">
         <br>
-        <input type="checkbox" name="special-items3">
-        <input type="checkbox" name="special-items3">
-        <input type="text" name="special-items3">
+        </fieldset>  
+        <hr>
+  <!--Friends-->         
+        <h2>Dangerous Friends</h2>
+        <hr>
+            -<input type="checkbox" name="dangerous-friends1">
+                <input type="text" name="dangerous-friends1">
+           +<input type="checkbox" name="dangerous-friends1">
         <br>
-        <input type="checkbox" name="special-items4">
-        <input type="checkbox" name="special-items4">
-        <input type="text" name="special-items4">
+        <fieldset class="repeating_dangerous-friends">
+            -<input type="checkbox" name="dangerous-friends1">
+                <input type="text" name="dangerous-friends1">
+           +<input type="checkbox" name="dangerous-friends1">
         <br>
-        <input type="checkbox" name="special-items5">
-        <input type="checkbox" name="special-items5">
-        <input type="text" name="special-items5">
-        <br>
-        <input type="checkbox" name="special-items6">
-        <input type="checkbox" name="special-items6">
-        <input type="text" name="special-items6">
-        <br>
-    </div>
+        </fieldset>
+     </div>
 </div>
 <hr> 
 <!--Playbook Advancement--> 
