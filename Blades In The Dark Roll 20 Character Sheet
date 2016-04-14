@@ -49,26 +49,26 @@
         Wanted Level<input type="number" class="sheet-wanted-level" name="crew-wanted-level" min="0" max="4" value="0"> /4
         <br>
         Coin<input type="checkbox" name="crew-coin1">
-        <input type="checkbox" name="crew-coin2">
-        <input type="checkbox" name="crew-coin3">
-        <input type="checkbox" name="crew-coin4">
+        <input type="checkbox" name="attr_crew-coin2">
+        <input type="checkbox" name="attr_crew-coin3">
+        <input type="checkbox" name="attr_crew-coin4">
         Vaults<input type="checkbox" name="crew-vault1">
-        <input type="checkbox" name="crew-vault2">
-        <input type="checkbox" name="crew-vault3">
-        <input type="checkbox" name="crew-vault4">
-        <input type="checkbox" name="crew-vault5">
-        <input type="checkbox" name="crew-vault6">
-        <input type="checkbox" name="crew-vault7">
-        <input type="checkbox" name="crew-vault8">
+        <input type="checkbox" name="attr_crew-vault2">
+        <input type="checkbox" name="attr_crew-vault3">
+        <input type="checkbox" name="attr_crew-vault4">
+        <input type="checkbox" name="attr_crew-vault5">
+        <input type="checkbox" name="attr_crew-vault6">
+        <input type="checkbox" name="attr_crew-vault7">
+        <input type="checkbox" name="attr_crew-vault8">
         
         
         
-        Turf<input type="number" class="sheet-turf" name="crew-turf" min="0" max="9" value="0">
-         Rep<input type="number" class="sheet-rep" name="crew-rep" min="0" max="9" value="0">
+        Turf<input type="number" class="sheet-turf" name="attr_crew-turf" min="0" max="9" value="0">
+         Rep<input type="number" class="sheet-rep" name="attr_crew-rep" min="0" max="9" value="0">
         <br>
-        Hold-&nbsp; Weak<input type="radio" name="crew-hold" value="weak">
-        &nbsp;Firm<input type="radio" name="crew-hold" value="firm">
-        &nbsp;Strong<input type="radio" name="crew-hold" value="strong">
+        Hold-&nbsp; Weak<input type="radio" name="attr_crew-hold" value="weak">
+        &nbsp;Firm<input type="radio" name="attr_crew-hold" value="firm">
+        &nbsp;Strong<input type="radio" name="attr_crew-hold" value="strong">
         <br>
         Tier-&nbsp; 1<input type="radio" name="attr-tier">
         &nbsp; 2<input type="radio" name="attr-tier">
@@ -80,46 +80,46 @@
     <div class="sheet-container">
     <img src="http://i65.tinypic.com/2mmajp5.png">
     <div class="sheet-tag">
-        <input type="checkbox" name="crew-checkbox">
+        <input type="checkbox" name="attr_crew-checkbox">
     </div>
     <div class="sheet-tag2">
-        <input type="checkbox" name="crew-checkbox2">
+        <input type="checkbox" name="attr_crew-checkbox2">
     </div>
     <div class="sheet-tag3">
-        <input type="checkbox" name="crew-checkbox3">
+        <input type="checkbox" name="attr_crew-checkbox3">
     </div>
     <div class="sheet-tag4">
-        <input type="checkbox" name="crew-checkbox4">
+        <input type="checkbox" name="attr_crew-checkbox4">
     </div>
     <div class="sheet-tag5">
-        <input type="checkbox" name="crew-checkbox5">
+        <input type="checkbox" name="attr_crew-checkbox5">
     </div>
     <div class="sheet-tag6">
-        <input type="checkbox" name="crew-checkbox6">
+        <input type="checkbox" name="attr_crew-checkbox6">
     </div>
     <div class="sheet-tag7">
-        <input type="checkbox" name="crew-checkbox7">
+        <input type="checkbox" name="attr_crew-checkbox7">
     </div>
     <div class="sheet-tag8">
-        <input type="checkbox" name="crew-checkbox8">
+        <input type="checkbox" name="attr_crew-checkbox8">
     </div>
     <div class="sheet-tag9">
-        <input type="checkbox" name="crew-checkbox9">
+        <input type="checkbox" name="attr_crew-checkbox9">
     </div>
     <div class="sheet-tag10">
-        <input type="checkbox" name="crew-checkbox10">
+        <input type="checkbox" name="attr_crew-checkbox10">
     </div>
     <div class="sheet-tag11">
-        <input type="checkbox" name="crew-checkbox11">
+        <input type="checkbox" name="attr_crew-checkbox11">
     </div>
     <div class="sheet-tag12">
-        <input type="checkbox" name="crew-checkbox12">
+        <input type="checkbox" name="attr_crew-checkbox12">
     </div>
     <div class="sheet-tag13">
-        <input type="checkbox" name="crew-checkbox13">
+        <input type="checkbox" name="attr_crew-checkbox13">
     </div>
     <div class="sheet-tag14">
-        <input type="checkbox" name="crew-checkbox14">
+        <input type="checkbox" name="attr_crew-checkbox14">
     </div>
 </div>
     
@@ -318,49 +318,49 @@
         <input type="radio" name="attr-load">6 heavy
         <br>
         <hr width="100%">
-        <input type="checkbox" name="standard-items">A Blade or Two
+        <input type="checkbox" name="attr_standard-items">A Blade or Two
         <br>
-        <input type="checkbox" name="standard-items">Throwing Knives
+        <input type="checkbox" name="attr_standard-items">Throwing Knives
         <br>
-        <input type="checkbox" name="standard-items">A Pistol
-        <input type="checkbox" name="standard-items">A 2nd Pistol
+        <input type="checkbox" name="attr_standard-items">A Pistol
+        <input type="checkbox" name="attr_standard-items">A 2nd Pistol
         <br>
-        <input type="checkbox" name="standard-items">
-        <input type="checkbox" name="standard-items">A Large Weapon
+        <input type="checkbox" name="attr_standard-items">
+        <input type="checkbox" name="attr_standard-items">A Large Weapon
         <br>
-        <input type="checkbox" name="standard-items">An Unusual Weapon
+        <input type="checkbox" name="attr_standard-items">An Unusual Weapon
         <br>
-        <input type="checkbox" name="standard-items">Armor
-        <input type="checkbox" name="standard-items">
-        <input type="checkbox" name="standard-items">+Heavy
+        <input type="checkbox" name="attr_standard-items">Armor
+        <input type="checkbox" name="attr_standard-items">
+        <input type="checkbox" name="attr_standard-items">+Heavy
        <br>
-        <input type="checkbox" name="standard-items">Burglary Tools
+        <input type="checkbox" name="attr_standard-items">Burglary Tools
         <br>
-        <input type="checkbox" name="standard-items">
-        <input type="checkbox" name="standard-items">Climbing Gear
+        <input type="checkbox" name="attr_standard-items">
+        <input type="checkbox" name="attr_standard-items">Climbing Gear
         <br>
-        <input type="checkbox" name="standard-items">Arcane Implements
+        <input type="checkbox" name="attr_standard-items">Arcane Implements
         <br>
-        <input type="checkbox" name="standard-items">Documents
+        <input type="checkbox" name="attr_standard-items">Documents
         <br>
-        <input type="checkbox" name="standard-items">Subterfuge Supplies
+        <input type="checkbox" name="attr_standard-items">Subterfuge Supplies
         <br>
-        <input type="checkbox" name="standard-items">Tinkering Tools
+        <input type="checkbox" name="attr_standard-items">Tinkering Tools
         <br>
-        <input type="checkbox" name="standard-items">
-        <input type="checkbox" name="standard-items">
-        <input type="text" name="standard-items">
+        <input type="checkbox" name="attr_standard-items">
+        <input type="checkbox" name="attr_standard-items">
+        <input type="text" name="attr_standard-items">
         <hr>
         <h3>Alchemicals</h3>
         <hr>
 <!--Alchemicals-->
-        Bandolier<input type="checkbox" name="bandolier1">
-         <input type="checkbox" name="bandolier2">
+        Bandolier<input type="checkbox" name="attr_bandolier1">
+         <input type="checkbox" name="attr_bandolier2">
          <input type="checkbox" name="bandolier3">
         <br>
          Bandolier<input type="checkbox" name="bandolier4">
-         <input type="checkbox" name="bandolier5">
-         <input type="checkbox" name="bandolier6">
+         <input type="checkbox" name="attr_bandolier5">
+         <input type="checkbox" name="attr_bandolier6">
         <br>
         <p><em>When you use a bandolier vial, choose an alchemical</em></p>
         <ul>
@@ -384,28 +384,28 @@
     <div class="sheet-col">
         <h2>Special Items</h2>
         <hr>
-        <input type="checkbox" name="special-items1">
-        <input type="checkbox" name="special-items1">
-        <input type="text" name="special-items1">
+        <input type="checkbox" name="attr_special-items1">
+        <input type="checkbox" name="attr_special-items1">
+        <input type="text" name="attr_special-items1">
         <br>
         <fieldset class="repeating_items">
-        <input type="checkbox" name="special-items1">
-        <input type="checkbox" name="special-items1">
-        <input type="text" name="special-items1">
+        <input type="checkbox" name="attr_special-items1">
+        <input type="checkbox" name="attr_special-items1">
+        <input type="text" name="attr_special-items1">
         <br>
         </fieldset>  
         <hr>
   <!--Friends-->         
         <h2>Dangerous Friends</h2>
         <hr>
-            -<input type="checkbox" name="dangerous-friends1">
-                <input type="text" name="dangerous-friends1">
-           +<input type="checkbox" name="dangerous-friends1">
+            -<input type="checkbox" name="attr_dangerous-friends1">
+                <input type="text" name="attr_dangerous-friends1">
+           +<input type="checkbox" name="attr_dangerous-friends1">
         <br>
         <fieldset class="repeating_dangerous-friends">
-            -<input type="checkbox" name="dangerous-friends1">
-                <input type="text" name="dangerous-friends1">
-           +<input type="checkbox" name="dangerous-friends1">
+            -<input type="checkbox" name="attr_dangerous-friends1">
+                <input type="text" name="attr_dangerous-friends1">
+           +<input type="checkbox" name="attr_dangerous-friends1">
         <br>
         </fieldset>
      </div>
@@ -414,18 +414,18 @@
 <!--Playbook Advancement--> 
 <div class="sheet-colrow">
     <div class="sheet-col">
-        Playbook Advancement<input type="checkbox" name="playbook-advancement1">
-        <input type="checkbox" name="playbook-advancement2">
-        <input type="checkbox" name="playbook-advancement3">
-        <input type="checkbox" name="playbook-advancement4">
-        <input type="checkbox" name="playbook-advancement5">
-        <input type="checkbox" name="playbook-advancement6">
-        <input type="checkbox" name="playbook-advancement7">
-        <input type="checkbox" name="playbook-advancement8">
+        Playbook Advancement<input type="checkbox" name="attr_playbook-advancement1">
+        <input type="checkbox" name="attr_playbook-advancement2">
+        <input type="checkbox" name="attr_playbook-advancement3">
+        <input type="checkbox" name="attr_playbook-advancement4">
+        <input type="checkbox" name="attr_playbook-advancement5">
+        <input type="checkbox" name="attr_playbook-advancement6">
+        <input type="checkbox" name="attr_playbook-advancement7">
+        <input type="checkbox" name="attr_playbook-advancement8">
         <h4>Mark XP</h4>
             <ul>
                 <li>When you roll a desperete action</li>
-                <li><input type="text" name="mark-xp" placeholder="Playbook specific goal"></li>
+                <li><input type="text" name="attr_mark-xp" placeholder="Playbook specific goal"></li>
                 <li>At end of session, if you've expressed your beliefs, drives, heritage, or background. And also mark XP if you struggled with issues from your vice or traumas during the session.</li>
             </ul>
     </div>
@@ -485,12 +485,12 @@
             <h1 style="text-align:left">Character</h1>
         <!--Character-->
                 
-        <input type="text" name="Name" placeholder="Name">
-        <input type="text" name="Alias" placeholder="Alias"><br>
-        <input type="text" name="Look" placeholder="Look"><br>
-        <input type="text" name="Heritage" placeholder="Heritage">
-        <input type="text" name="Background" placeholder="Background"><br>
-        <input type="text" name="Vice" placeholder="Vice/Purveyor">
+        <input type="text" name="attr_character_name" placeholder="Name">
+        <input type="text" name="attr_Alias" placeholder="Alias"><br>
+        <input type="text" name="attr_Look" placeholder="Look"><br>
+        <input type="text" name="attr_Heritage" placeholder="Heritage">
+        <input type="text" name="attr_Background" placeholder="Background"><br>
+        <input type="text" name="attr_Vice" placeholder="Vice/Purveyor">
     
                    
                 
@@ -502,15 +502,15 @@
     <div class="sheet-col">
         
         <h2>Stress</h2>
-                <input type="checkbox" name="stress1" value="1">
-                <input type="checkbox" name="stress2" value="1">
-                <input type="checkbox" name="stress3" value="1">
-                <input type="checkbox" name="stress4" value="1">
-                <input type="checkbox" name="stress5" value="1">
-                <input type="checkbox" name="stress6" value="1">
-                <input type="checkbox" name="stress7" value="1">
-                <input type="checkbox" name="stress8" value="1">
-                <input type="checkbox" name="stress9" value="1">
+                <input type="checkbox" name="attr_stress1" value="1">
+                <input type="checkbox" name="attr_stress2" value="1">
+                <input type="checkbox" name="attr_stress3" value="1">
+                <input type="checkbox" name="attr_stress4" value="1">
+                <input type="checkbox" name="attr_stress5" value="1">
+                <input type="checkbox" name="attr_stress6" value="1">
+                <input type="checkbox" name="attr_stress7" value="1">
+                <input type="checkbox" name="attr_stress8" value="1">
+                <input type="checkbox" name="attr_stress9" value="1">
         
         
                 
@@ -521,23 +521,23 @@
 <!--Trauma-->
     <div class="sheet-col">    
             <h2>Trauma</h2>
-                <input type="checkbox" name="Trauma1">
-                <input type="checkbox" name="Trauma2">
-                <input type="checkbox" name="Trauma3">
-                <input type="checkbox" name="Trauma4">
+                <input type="checkbox" name="attr_Trauma1">
+                <input type="checkbox" name="attr_Trauma2">
+                <input type="checkbox" name="attr_Trauma3">
+                <input type="checkbox" name="attr_Trauma4">
     </div>
 <!--Traits-->
      <div class="sheet-col">       
             <h2>Traits</h2>
-         <input type="checkbox" name="trait-cold" value="cold">Cold
-         <input type="checkbox" name="trait-haunted" value="haunted">Haunted
-         <input type="checkbox" name="trait-obsessed" value="obsessed">Obsessed
-                <input type="checkbox" name="trait-paraniod" value="paraniod">Paraniod
+         <input type="checkbox" name="attr_trait-cold" value="cold">Cold
+         <input type="checkbox" name="attr_trait-haunted" value="haunted">Haunted
+         <input type="checkbox" name="attr_trait-obsessed" value="obsessed">Obsessed
+                <input type="checkbox" name="attr_trait-paraniod" value="paraniod">Paraniod
          <hr>
-                <input type="checkbox" name="trait-reckless" value="reckless">Reckless
-                <input type="checkbox" name="trait-soft" value="soft">Soft
-                <input type="checkbox" name="trait-unstable" value="unstable">Unstable
-                <input type="checkbox" name="trait-vicious" value="vicious">Vicious
+                <input type="checkbox" name="attr_trait-reckless" value="reckless">Reckless
+                <input type="checkbox" name="attr_trait-soft" value="soft">Soft
+                <input type="checkbox" name="attr_trait-unstable" value="unstable">Unstable
+                <input type="checkbox" name="attr_trait-vicious" value="vicious">Vicious
          <br>
          
     </div> 
@@ -548,73 +548,73 @@
     <div class="sheet-col">
                 <h2>Harm</h2>
                 <h5>Need Help</h5>
-                    <input type="text" name="harm3">
+                    <input type="text" name="attr_harm3">
                     <br>
                     <hr>
                 <h5>-1d</h5>
-                    <input type="text" name="harm2">
-                    <input type="text" name="harm2">
+                    <input type="text" name="attr_harm2">
+                    <input type="text" name="attr_harm2">
                     <br>
                     <hr>
                 <h5>Less Effect</h5>
-                    <input type="text" name="harm1">
-                    <input type="text" name="harm1">
+                    <input type="text" name="attr_harm1">
+                    <input type="text" name="attr_harm1">
                     <br>
                     <hr>
     </div>
     <div class="sheet-col">
          <h3>Coin</h3>
-                <input type="checkbox" name="coin1">
-                <input type="checkbox" name="coin2">
-                <input type="checkbox" name="coin3">
-                <input type="checkbox" name="coin4">
+                <input type="checkbox" name="attr_coin1">
+                <input type="checkbox" name="attr_coin2">
+                <input type="checkbox" name="attr_coin3">
+                <input type="checkbox" name="attr_coin4">
         
 <!--Stash-->
         
             <h3>Stash</h3>
-                <input type="checkbox" name="stash1">
-                <input type="checkbox" name="stash2">
-                <input type="checkbox" name="stash3">
-                <input type="checkbox" name="stash4">
-                <input type="checkbox" name="stash5">
-                <input type="checkbox" name="stash6">
-                <input type="checkbox" name="stash7">
-                <input type="checkbox" name="stash8">
-                <input type="checkbox" name="stash9">
-                <input type="checkbox" name="stash10">Poor Soul<br>
+                <input type="checkbox" name="attr_stash1">
+                <input type="checkbox" name="attr_stash2">
+                <input type="checkbox" name="attr_stash3">
+                <input type="checkbox" name="attr_stash4">
+                <input type="checkbox" name="attr_stash5">
+                <input type="checkbox" name="attr_stash6">
+                <input type="checkbox" name="attr_stash7">
+                <input type="checkbox" name="attr_stash8">
+                <input type="checkbox" name="attr_stash9">
+                <input type="checkbox" name="attr_stash10">Poor Soul<br>
                 <hr>
-                <input type="checkbox" name="stash11">
-                <input type="checkbox" name="stash12">
-                <input type="checkbox" name="stash13">
-                <input type="checkbox" name="stash14">
-                <input type="checkbox" name="stash15">
-                <input type="checkbox" name="stash16">
-                <input type="checkbox" name="stash17">
-                <input type="checkbox" name="stash18">
-                <input type="checkbox" name="stash19">
-                <input type="checkbox" name="stash20">Meager<br>
+                <input type="checkbox" name="attr_stash11">
+                <input type="checkbox" name="attr_stash12">
+                <input type="checkbox" name="attr_stash13">
+                <input type="checkbox" name="attr_stash14">
+                <input type="checkbox" name="attr_stash15">
+                <input type="checkbox" name="attr_stash16">
+                <input type="checkbox" name="attr_stash17">
+                <input type="checkbox" name="attr_stash18">
+                <input type="checkbox" name="attr_stash19">
+                <input type="checkbox" name="attr_stash20">Meager<br>
                 <hr>
-                <input type="checkbox" name="stash21">
-                <input type="checkbox" name="stash22">
-                <input type="checkbox" name="stash23">
-                <input type="checkbox" name="stash24">
-                <input type="checkbox" name="stash25">
-                <input type="checkbox" name="stash26">
-                <input type="checkbox" name="stash27">
-                <input type="checkbox" name="stash28">
-                <input type="checkbox" name="stash29">
-                <input type="checkbox" name="stash30">Modest<br>
+                <input type="checkbox" name="attr_stash21">
+                <input type="checkbox" name="attr_stash22">
+                <input type="checkbox" name="attr_stash23">
+                <input type="checkbox" name="attr_stash24">
+                <input type="checkbox" name="attr_stash25">
+                <input type="checkbox" name="attr_stash26">
+                <input type="checkbox" name="attr_stash27">
+                <input type="checkbox" name="attr_stash28">
+                <input type="checkbox" name="attr_stash29">
+                <input type="checkbox" name="attr_stash30">Modest<br>
                 <hr>
-                <input type="checkbox" name="stash31">
-                <input type="checkbox" name="stash32">
-                <input type="checkbox" name="stash33">
-                <input type="checkbox" name="stash34">
-                <input type="checkbox" name="stash35">
-                <input type="checkbox" name="stash36">
-                <input type="checkbox" name="stash37">
-                <input type="checkbox" name="stash38">
-                <input type="checkbox" name="stash39">
-                <input type="checkbox" name="stash40">Fine<br>   
+                <input type="checkbox" name="attr_stash31">
+                <input type="checkbox" name="attr_stash32">
+                <input type="checkbox" name="attr_stash33">
+                <input type="checkbox" name="attr_stash34">
+                <input type="checkbox" name="attr_stash35">
+                <input type="checkbox" name="attr_stash36">
+                <input type="checkbox" name="attr_stash37">
+                <input type="checkbox" name="attr_stash38">
+                <input type="checkbox" name="attr_stash39">
+                <input type="checkbox" name="attr_stash40">Fine<br>   
     </div>
 </div>
 <div class="sheet-2colrow">
@@ -630,11 +630,11 @@
         <input type="checkbox" name="attr_recovery8" class="sheet-recovery">Recovery
         <br>
                  <input type="checkbox" name="armor">Armor&nbsp;
-            <input type="checkbox" name="armor">+Heavy<br>
-            <input type="checkbox" name="armor-special">
-            <input type="text"  name="armor-special"placeholder="Special Armor"><br>
-            <input type="checkbox" name="armor-other-special">
-            <input type="text"  name="armor-special" placeholder="Other Special Armor"> 
+            <input type="checkbox" name="attr_armor">+Heavy<br>
+            <input type="checkbox" name="attr_armor-special">
+            <input type="text"  name="attr_armor-special"placeholder="Special Armor"><br>
+            <input type="checkbox" name="attr_armor-other-special">
+            <input type="text"  name="attr_armor-special" placeholder="Other Special Armor"> 
     </div>
            
 </div>
