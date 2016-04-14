@@ -289,7 +289,7 @@
 
 <!--Playbook-->    
 <h1 style="text-align:left">Playbook</h1>
-    <input type="text" name="playbook-title" placeholder="Playbook Name">
+    <input type="text" name="attr_playbook-title" placeholder="Playbook Name">
 <hr>
 <div class="sheet-3colrow">
  <!--Abilities-->   
@@ -297,14 +297,14 @@
      <div class="sheet-col">
          <h2>Special Abilities</h2>
          <hr>
-         <input type="checkbox" name="specia-abilities-name1">
-             <input type="text" name="special-abilities-name1" placeholder="Ability Name"><br>
-                <textarea name="special-abilities-description1" placeholder="Ability Description"></textarea>
+         <input type="checkbox" name="attr_specia-abilities-name1">
+             <input type="text" name="attr_special-abilities-name1" placeholder="Ability Name"><br>
+                <textarea name="attr_special-abilities-description1" placeholder="Ability Description"></textarea>
          <br>
          <fieldset class="repeating_abilities">
-            <input type="checkbox" name="specia-abilities-name1">
-             <input type="text" name="special-abilities-name1" placeholder="Ability Name"><br>
-                <textarea name="special-abilities-description1" placeholder="Ability Description"></textarea>
+            <input type="checkbox" name="attr_specia-abilities-name1">
+             <input type="text" name="attr_special-abilities-name1" placeholder="Ability Name"><br>
+                <textarea name="attr_special-abilities-description1" placeholder="Ability Description"></textarea>
         </fieldset>
     </div>
        
@@ -318,47 +318,47 @@
         <input type="radio" name="attr-load">6 heavy
         <br>
         <hr width="100%">
-        <input type="checkbox" name="attr_standard-items">A Blade or Two
+        <input type="checkbox" name="attr_standard-items1">A Blade or Two
         <br>
-        <input type="checkbox" name="attr_standard-items">Throwing Knives
+        <input type="checkbox" name="attr_standard-items2">Throwing Knives
         <br>
-        <input type="checkbox" name="attr_standard-items">A Pistol
-        <input type="checkbox" name="attr_standard-items">A 2nd Pistol
+        <input type="checkbox" name="attr_standard-items3">A Pistol
+        <input type="checkbox" name="attr_standard-items4">A 2nd Pistol
         <br>
-        <input type="checkbox" name="attr_standard-items">
-        <input type="checkbox" name="attr_standard-items">A Large Weapon
+        <input type="checkbox" name="attr_standard-items5">
+        <input type="checkbox" name="attr_standard-items6">A Large Weapon
         <br>
-        <input type="checkbox" name="attr_standard-items">An Unusual Weapon
+        <input type="checkbox" name="attr_standard-items7">An Unusual Weapon
         <br>
-        <input type="checkbox" name="attr_standard-items">Armor
-        <input type="checkbox" name="attr_standard-items">
-        <input type="checkbox" name="attr_standard-items">+Heavy
+        <input type="checkbox" name="attr_standard-items8">Armor
+        <input type="checkbox" name="attr_standard-items9">
+        <input type="checkbox" name="attr_standard-items10">+Heavy
        <br>
-        <input type="checkbox" name="attr_standard-items">Burglary Tools
+        <input type="checkbox" name="attr_standard-items11">Burglary Tools
         <br>
-        <input type="checkbox" name="attr_standard-items">
-        <input type="checkbox" name="attr_standard-items">Climbing Gear
+        <input type="checkbox" name="attr_standard-items12">
+        <input type="checkbox" name="attr_standard-items13">Climbing Gear
         <br>
-        <input type="checkbox" name="attr_standard-items">Arcane Implements
+        <input type="checkbox" name="attr_standard-items14">Arcane Implements
         <br>
-        <input type="checkbox" name="attr_standard-items">Documents
+        <input type="checkbox" name="attr_standard-items15">Documents
         <br>
-        <input type="checkbox" name="attr_standard-items">Subterfuge Supplies
+        <input type="checkbox" name="attr_standard-items16">Subterfuge Supplies
         <br>
-        <input type="checkbox" name="attr_standard-items">Tinkering Tools
+        <input type="checkbox" name="attr_standard-items17">Tinkering Tools
         <br>
-        <input type="checkbox" name="attr_standard-items">
-        <input type="checkbox" name="attr_standard-items">
-        <input type="text" name="attr_standard-items">
+        <input type="checkbox" name="attr_standard-items18">
+        <input type="checkbox" name="attr_standard-items19">
+        <input type="text" name="attr_standard-items20">
         <hr>
         <h3>Alchemicals</h3>
         <hr>
 <!--Alchemicals-->
         Bandolier<input type="checkbox" name="attr_bandolier1">
          <input type="checkbox" name="attr_bandolier2">
-         <input type="checkbox" name="bandolier3">
+         <input type="checkbox" name="attr_bandolier3">
         <br>
-         Bandolier<input type="checkbox" name="bandolier4">
+         Bandolier<input type="checkbox" name="attr_bandolier4">
          <input type="checkbox" name="attr_bandolier5">
          <input type="checkbox" name="attr_bandolier6">
         <br>
