@@ -297,14 +297,14 @@
      <div class="sheet-col">
          <h2>Special Abilities</h2>
          <hr>
-         <input type="checkbox" name="attr_specia-abilities-name1">
-             <input type="text" name="attr_special-abilities-name1" placeholder="Ability Name"><br>
+         <input type="checkbox" name="attr_specia-abilities-name1" value="0">
+             <input type="text" name="attr_special-abilities-name2" placeholder="Ability Name"><br>
                 <textarea name="attr_special-abilities-description1" placeholder="Ability Description"></textarea>
          <br>
          <fieldset class="repeating_abilities">
-            <input type="checkbox" name="attr_specia-abilities-name1">
-             <input type="text" name="attr_special-abilities-name1" placeholder="Ability Name"><br>
-                <textarea name="attr_special-abilities-description1" placeholder="Ability Description"></textarea>
+            <input type="checkbox" name="attr_specia-abilities-name3" value="0">
+             <input type="text" name="attr_special-abilities-name4" placeholder="Ability Name"><br>
+                <textarea name="attr_special-abilities-description2" placeholder="Ability Description"></textarea>
         </fieldset>
     </div>
        
@@ -385,13 +385,13 @@
         <h2>Special Items</h2>
         <hr>
         <input type="checkbox" name="attr_special-items1">
-        <input type="checkbox" name="attr_special-items1">
-        <input type="text" name="attr_special-items1">
+        <input type="checkbox" name="attr_special-items2">
+        <input type="text" name="attr_special-items3">
         <br>
         <fieldset class="repeating_items">
-        <input type="checkbox" name="attr_special-items1">
-        <input type="checkbox" name="attr_special-items1">
-        <input type="text" name="attr_special-items1">
+        <input type="checkbox" name="attr_special-items4">
+        <input type="checkbox" name="attr_special-items5">
+        <input type="text" name="attr_special-items6">
         <br>
         </fieldset>  
         <hr>
