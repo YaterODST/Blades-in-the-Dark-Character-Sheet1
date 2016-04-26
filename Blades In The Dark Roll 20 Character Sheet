@@ -19,40 +19,40 @@
 <div class='sheet-3colrow'>
     <div class="sheet-col">
         <br>
-        <input type="text" name="crew-type" placeholder="Crew Type">
+        <input type="text" name="attr_crew-type" placeholder="Crew Type">
         <br>
-        <input type="text" name="crew-name" placeholder="Crew Name">
-        <input type="text" name="crew-rep" placeholder="Reputation">
+        <input type="text" name="attr_crew-name" placeholder="Crew Name">
+        <input type="text" name="attr_crew-rep" placeholder="Reputation">
         <br>
-        <input type=text name="crew-lair" placeholder="Lair">
+        <input type=text name="attr_crew-lair" placeholder="Lair">
         <br>
     </div>
     <div class="sheet-col">
        Crew Advancement&nbsp;<input type="checkbox" name="sheet-crew-adv1"> 
-        <input type="checkbox" name="sheet-crew-adv2"> 
-        <input type="checkbox" name="sheet-crew-adv3"> 
-        <input type="checkbox" name="sheet-crew-adv4"> 
-        <input type="checkbox" name="sheet-crew-adv5"> 
-        <input type="checkbox" name="sheet-crew-adv6"> 
-        <input type="checkbox" name="sheet-crew-adv7"> 
-        <input type="checkbox" name="sheet-crew-adv8"> 
+        <input type="checkbox" name="attr_crew-adv2"> 
+        <input type="checkbox" name="attr_crew-adv3"> 
+        <input type="checkbox" name="attr_crew-adv4"> 
+        <input type="checkbox" name="attr_crew-adv5"> 
+        <input type="checkbox" name="attr_crew-adv6"> 
+        <input type="checkbox" name="attr_crew-adv7"> 
+        <input type="checkbox" name="attr_crew-adv8"> 
         <br>
-        <input type="text" name="sheet-crew-advdesc1" placeholder="Crew Specific Goal">
-        <input type="text" name="sheet-crew-advdesc2" placeholder="Crew Specific Goal">
-        <input type="text" name="sheet-crew-advdesc3" placeholder="Crew Specific Goal">
-        <input type="text" name="sheet-crew-advdesc4" placeholder="Crew Specific Goal">
+        <input type="text" name="attr_advdesc1" placeholder="Crew Specific Goal">
+        <input type="text" name="attr_crew-advdesc2" placeholder="Crew Specific Goal">
+        <input type="text" name="attr_crew-advdesc3" placeholder="Crew Specific Goal">
+        <input type="text" name="attr_crew-advdesc4" placeholder="Crew Specific Goal">
         
         
     </div>
     <div class="sheet-col">
-    Heat<input type="number" class="sheet-heat" name="crew-heat" min="0" max="9" value="0"> /9
-        Wanted Level<input type="number" class="sheet-wanted-level" name="crew-wanted-level" min="0" max="4" value="0"> /4
+    Heat<input type="number" class="sheet-heat" name="attr_crew-heat" min="0" max="9" value="0"> /9
+        Wanted Level<input type="number" class="sheet-wanted-level" name="attr_crew-wanted-level" min="0" max="4" value="0"> /4
         <br>
-        Coin<input type="checkbox" name="crew-coin1">
+        Coin<input type="checkbox" name="attr_crew-coin1">
         <input type="checkbox" name="attr_crew-coin2">
         <input type="checkbox" name="attr_crew-coin3">
         <input type="checkbox" name="attr_crew-coin4">
-        Vaults<input type="checkbox" name="crew-vault1">
+        Vaults<input type="checkbox" name="attr_crew-vault1">
         <input type="checkbox" name="attr_crew-vault2">
         <input type="checkbox" name="attr_crew-vault3">
         <input type="checkbox" name="attr_crew-vault4">
@@ -172,12 +172,12 @@
 <div class="sheet-3colrow">
     <div class="sheet-col">
         <h4>Crew Upgrades</h4>
-        <input type="checkbox" name="sheet-crew-upgrd">
-            <input type="text" name="sheet-crew-upgrades" placeholder="Upgrade Name">
+        <input type="checkbox" name="attr_crew-upgrd">
+            <input type="text" name="attr_crew-upgrades" placeholder="Upgrade Name">
         <br>
         <fieldset class="repeating_crew_upgrades">
-           <input type="checkbox" name="sheet-crew-upgrd">
-            <input type="text" name="sheet-crew-upgrades" placeholder="Upgrade Name">
+           <input type="checkbox" name="attr_crew-upgrd">
+            <input type="text" name="attr_crew-upgrades" placeholder="Upgrade Name">
         </fieldset>
     </div>
 
@@ -186,26 +186,26 @@
     
     <div class="sheet-col">
         <h4>Hunting Grounds</h4>
-        <input type="text" name="sheet-crew-huntinggrounds" placeholder="Hunting Ground Loacation">&nbsp;&nbsp;
-            Quality&nbsp;<input type="radio" name="sheet-crew-huntquality1">&nbsp;
-            <input type="radio" name="sheet-crew-huntquality2">&nbsp;
-            <input type="radio" name="sheet-crew-huntquality3">&nbsp;
-            <input type="radio" name="sheet-crew-huntqualit4">&nbsp;
+        <input type="text" name="attr_crew-huntinggrounds" placeholder="Hunting Ground Loacation">&nbsp;&nbsp;
+            Quality&nbsp;<input type="radio" name="attr_crew-huntquality1">&nbsp;
+            <input type="radio" name="attr_crew-huntquality2">&nbsp;
+            <input type="radio" name="attr_crew-huntquality3">&nbsp;
+            <input type="radio" name="attr_crew-huntqualit4">&nbsp;
         <br>
         <fieldset class="repeating_crew_huntinggrounds">
-            <input type="text" name="sheet-crew-huntinggrounds" placeholder="Hunting Ground Loacation">&nbsp;&nbsp;
-            Quality&nbsp;<input type="radio" name="sheet-crew-huntquality1">&nbsp;
-            <input type="radio" name="sheet-crew-huntquality2">&nbsp;
-            <input type="radio" name="sheet-crew-huntquality3">&nbsp;
-            <input type="radio" name="sheet-crew-huntqualit4">&nbsp;
+            <input type="text" name="attr_crew-huntinggrounds" placeholder="Hunting Ground Loacation">&nbsp;&nbsp;
+            Quality&nbsp;<input type="radio" name="attr_crew-huntquality1">&nbsp;
+            <input type="radio" name="attr_crew-huntquality2">&nbsp;
+            <input type="radio" name="attr_crew-huntquality3">&nbsp;
+            <input type="radio" name="attr_crew-huntqualit4">&nbsp;
         </fieldset>
     </div>
     <div class="sheet-col">
         <h4>Contacts</h4>
-        <input type="text" name="sheet-crew-contacts" placeholder="Contact name">
+        <input type="text" name="attr_crew-contacts" placeholder="Contact name">
         <br>
         <fieldset class="repeating_contacts">
-            <input type="text" name="sheet-crew-contacts" placeholder="Contact name">
+            <input type="text" name="attr_crew-contacts" placeholder="Contact name">
         </fieldset>
         
     </div>
@@ -216,51 +216,51 @@
         <div class="sheet-2colrow">
         <div class="sheet-col">
      <h5>Lair</h5>
-        <input type="checkbox" name="sheet-crew-upgrades1">
-        <input type="checkbox" name="sheet-crew-upgrades1">Carriage
+        <input type="checkbox" name="attr_crew-upgrades1">
+        <input type="checkbox" name="attr_crew-upgrades2">Carriage
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades1">
-        <input type="checkbox" name="sheet-crew-upgrades1">Boat
+        <input type="checkbox" name="attr_crew-upgrades3">
+        <input type="checkbox" name="attr_crew-upgrades4">Boat
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades1">Hidden
+        <input type="checkbox" name="attr_crew-upgrades5">Hidden
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades1">Quarters
+        <input type="checkbox" name="attr_crew-upgrades6">Quarters
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades1">
-        <input type="checkbox" name="sheet-crew-upgrades1">Secure
+        <input type="checkbox" name="attr_crew-upgrades7">
+        <input type="checkbox" name="attr_crew-upgrades8">Secure
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades1">
-        <input type="checkbox" name="sheet-crew-upgrades1">Vault
+        <input type="checkbox" name="attr_crew-upgrades9">
+        <input type="checkbox" name="attr_crew-upgrades10">Vault
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades1">Workshop
+        <input type="checkbox" name="attr_crew-upgrades11">Workshop
         <br>
         <h5>Training</h5>
-        <input type="checkbox" name="sheet-crew-upgrades">Insight
+        <input type="checkbox" name="attr_crew-upgrades12">Insight
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Prowess
+        <input type="checkbox" name="attr_crew-upgrades13">Prowess
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Resolve
+        <input type="checkbox" name="attr_crew-upgrades14">Resolve
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Personal
+        <input type="checkbox" name="attr_crew-upgrades15">Personal
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">
-        <input type="checkbox" name="sheet-crew-upgrades">Mastery
+        <input type="checkbox" name="attr_crew-upgrades16">
+        <input type="checkbox" name="attr_crew-upgrades17">Mastery
     </div>
     <div class="sheet-col">
         <h5>Quality</h5>
-        <input type="checkbox" name="sheet-crew-upgrades">Documents
+        <input type="checkbox" name="attr_crew-upgrades18">Documents
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Gear
+        <input type="checkbox" name="attr_crew-upgrades19">Gear
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Implements
+        <input type="checkbox" name="attr_crew-upgrades20">Implements
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Pet/Special
+        <input type="checkbox" name="attr_crew-upgrades21">Pet/Special
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Supplies
+        <input type="checkbox" name="attr_crew-upgrades22">Supplies
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Tools
+        <input type="checkbox" name="attr_crew-upgrades23">Tools
         <br>
-        <input type="checkbox" name="sheet-crew-upgrades">Weapons
+        <input type="checkbox" name="attr_crew-upgrades24">Weapons
         <br>
         <h5>Cohorts:</h5>
         <h6>Upgrade Costs</h6>
@@ -399,13 +399,13 @@
         <h2>Dangerous Friends</h2>
         <hr>
             -<input type="checkbox" name="attr_dangerous-friends1">
-                <input type="text" name="attr_dangerous-friends1">
-           +<input type="checkbox" name="attr_dangerous-friends1">
+                <input type="text" name="attr_dangerous-friends2">
+           +<input type="checkbox" name="attr_dangerous-friends3">
         <br>
         <fieldset class="repeating_dangerous-friends">
-            -<input type="checkbox" name="attr_dangerous-friends1">
-                <input type="text" name="attr_dangerous-friends1">
-           +<input type="checkbox" name="attr_dangerous-friends1">
+            -<input type="checkbox" name="attr_dangerous-friends4">
+                <input type="text" name="attr_dangerous-friends5">
+           +<input type="checkbox" name="attr_dangerous-friends6">
         <br>
         </fieldset>
      </div>
