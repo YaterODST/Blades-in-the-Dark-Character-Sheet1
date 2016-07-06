@@ -151,7 +151,7 @@
                 Broken<input type="checkbox" name="attr-cohort-harm-broken">&nbsp;
                 Armor<input type="checkbox" name="attr-cohort-armor">
                 <br>
-                <input type="text" name="sheet-cohort-notes" placeholder="Cohort Name">
+                <input type="text" name="attr_cohort-notes" placeholder="Cohort Name">
             <br>
             <fieldset class="repeating_cohort">
                 Quality&nbsp;<input type="radio" name="attr-quality" checked="true">&nbsp;
@@ -164,7 +164,7 @@
                 Broken<input type="checkbox" name="attr-cohort-harm-broken">&nbsp;
                 Armor<input type="checkbox" name="attr-cohort-armor">
                 <br>
-                <input type="text" name="sheet-cohort-notes" placeholder="Cohort Name">
+                <input type="text" name="attr_cohort-notes" placeholder="Cohort Name">
 
             </fieldset>
         </div>
@@ -276,7 +276,7 @@
     </div>
 </div>
                 </div>
-<textarea name="sheet-crew-notes" placeholder="Crew Notes"></textarea>
+<textarea name="attr_crew-notes" placeholder="Crew Notes"></textarea>
 
 <br>
                 
@@ -553,12 +553,12 @@
                     <hr>
                 <h5>-1d</h5>
                     <input type="text" name="attr_harm2">
-                    <input type="text" name="attr_harm2">
+                    <input type="text" name="attr_harm4">
                     <br>
                     <hr>
                 <h5>Less Effect</h5>
-                    <input type="text" name="attr_harm1">
-                    <input type="text" name="attr_harm1">
+                    <input type="text" name="attr_harm6">
+                    <input type="text" name="attr_harm7">
                     <br>
                     <hr>
     </div>
