@@ -22,7 +22,7 @@
         <input type="text" name="attr_crew-type" placeholder="Crew Type">
         <br>
         <input type="text" name="attr_crew-name" placeholder="Crew Name">
-        <input type="text" name="attr_crew-rep" placeholder="Reputation">
+        <input type="text" name="attr_crew-reputation" placeholder="Reputation">
         <br>
         <input type=text name="attr_crew-lair" placeholder="Lair">
         <br>
@@ -141,30 +141,76 @@
 		</div>
         <div class="sheet-col">
             <h2>Cohorts</h2>
-            Quality&nbsp;<input type="radio" name="attr-quality" checked="true">&nbsp;
-                <input type="radio" name="attr-quality">&nbsp;
-                <input type="radio" name="attr-quality">&nbsp;
-                <input type="radio" name="attr-quality">&nbsp;
+                Type
+                <input type="text" name="attr_cohort-type" placeholder="Cohort Type">
                 <br>
-                Weak<input type="checkbox" name="attr-cohort-harm-weak">
-                Impared<input type="checkbox" name="attr-cohort-harm-impared">
-                Broken<input type="checkbox" name="attr-cohort-harm-broken">&nbsp;
-                Armor<input type="checkbox" name="attr-cohort-armor">
+                Name
+                <input type="text" name="attr_cohort-Name" placeholder="Name">
+            <h3>Quality</h3>&nbsp;<input type="radio" name="attr_quality" checked="true" value="0">
+                <input type="radio" name="attr_quality" value="1">
+                <input type="radio" name="attr_quality" value="2">
+                <input type="radio" name="attr_quality" value="3">
                 <br>
-                <input type="text" name="attr_cohort-notes" placeholder="Cohort Name">
-            <br>
+                <h3>Harm</h3>
+                Weak<input type="checkbox" name="attr_cohort-harm-weak">
+                Impared<input type="checkbox" name="attr_cohort-harm-impared">
+                Broken<input type="checkbox" name="attr_cohort-harm-broken">&nbsp;
+                <br>
+                <br>
+                Armor<input type="checkbox" name="attr_cohort-armor">
+                <br>
+                <br>
+                <h3>Edge</h3>
+                Fearsome <input type="checkbox" name="attr_cohort-edge-fearsome">
+                Independent <input type="checkbox" name="attr_cohort-edge-independent">
+                Loyal <input type="checkbox" name="attr_cohort-edge-loyal">
+                Tenacious <input type="checkbox" name="attr_cohort-edge-tenacious">
+                <br>
+                <h3>Flaw</h3>
+                Principled <input type="checkbox" name="attr_cohort-flaw-principled">
+                Savage <input type="checkbox" name="attr_cohort-flaw-savage">
+                Unreliable <input type="checkbox" name="attr_cohort-flaw-unreliable">
+                Wild <input type="checkbox" name="attr_cohort-flaw-wild">
+                <br>
+                
+                
+                
+              
+                
             <fieldset class="repeating_cohort">
-                Quality&nbsp;<input type="radio" name="attr-quality" checked="true">&nbsp;
-                <input type="radio" name="attr-quality">&nbsp;
-                <input type="radio" name="attr-quality">&nbsp;
-                <input type="radio" name="attr-quality">&nbsp;
+                 Type
+                <input type="text" name="attr_cohort-type" placeholder="Cohort Type">
                 <br>
-                Weak<input type="checkbox" name="attr-cohort-harm-weak">
-                Impared<input type="checkbox" name="attr-cohort-harm-impared">
-                Broken<input type="checkbox" name="attr-cohort-harm-broken">&nbsp;
-                Armor<input type="checkbox" name="attr-cohort-armor">
+                Name
+                <input type="text" name="attr_cohort-Name" placeholder="Name">
+            <h3>Quality</h3>&nbsp;<input type="radio" name="attr_quality" checked="true" value="0">&nbsp;
+                <input type="radio" name="attr_quality" value="1">&nbsp;
+                <input type="radio" name="attr_quality" value="2">&nbsp;
+                <input type="radio" name="attr_quality" value="3">&nbsp;
                 <br>
-                <input type="text" name="attr_cohort-notes" placeholder="Cohort Name">
+                <h3>Harm</h3>
+                Weak<input type="checkbox" name="attr_cohort-harm-weak">
+                Impared<input type="checkbox" name="attr_cohort-harm-impared">
+                Broken<input type="checkbox" name="attr_cohort-harm-broken">&nbsp;
+                <br>
+                <br>
+                Armor<input type="checkbox" name="attr_cohort-armor">
+                <br>
+                <br>
+                <h3>Edge</h3>
+                Fearsome <input type="checkbox" name="attr_cohort-edge-fearsome">
+                Independent <input type="checkbox" name="attr_cohort-edge-independent">
+                Loyal <input type="checkbox" name="attr_cohort-edge-loyal">
+                Tenacious <input type="checkbox" name="attr_cohort-edge-tenacious">
+                <br>
+                <h3>Flaw</h3>
+                Principled <input type="checkbox" name="attr_cohort-flaw-principled">
+                Savage <input type="checkbox" name="attr_cohort-flaw-savage">
+                Unreliable <input type="checkbox" name="attr_cohort-flaw-unreliable">
+                Wild <input type="checkbox" name="attr_cohort-flaw-wild">
+                <br>
+                
+        
 
             </fieldset>
         </div>
