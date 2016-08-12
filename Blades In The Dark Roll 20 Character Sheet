@@ -70,11 +70,10 @@
         &nbsp;Firm<input type="radio" name="attr_crew-hold" value="firm">
         &nbsp;Strong<input type="radio" name="attr_crew-hold" value="strong">
         <br>
-        Tier- 0<input type="radio" name="attr_tier" value="0">
-        &nbsp; 1<input type="radio" name="attr-tier" value="1">
-        &nbsp; 2<input type="radio" name="attr-tier" value="2">
-        &nbsp; 3<input type="radio" name="attr-tier" value="3">
-        &nbsp; 4<input type="radio" name="attr-tier" value="4">
+        Tier-&nbsp; 1<input type="radio" name="attr-tier">
+        &nbsp; 2<input type="radio" name="attr-tier">
+        &nbsp; 3<input type="radio" name="attr-tier">
+        &nbsp; 4<input type="radio" name="attr-tier">
     </div>
     </div>
     
@@ -142,8 +141,43 @@
 		</div>
         <div class="sheet-col">
             <h2>Cohorts</h2>
-            
-                <fieldset class="repeating_cohort">
+                Type
+                <input type="text" name="attr_cohort-type" placeholder="Cohort Type">
+                <br>
+                Name
+                <input type="text" name="attr_cohort-Name" placeholder="Name">
+            <h3>Quality</h3>&nbsp;<input type="radio" name="attr_quality" checked="true" value="0">
+                <input type="radio" name="attr_quality" value="1">
+                <input type="radio" name="attr_quality" value="2">
+                <input type="radio" name="attr_quality" value="3">
+                <br>
+                <h3>Harm</h3>
+                Weak<input type="checkbox" name="attr_cohort-harm-weak">
+                Impared<input type="checkbox" name="attr_cohort-harm-impared">
+                Broken<input type="checkbox" name="attr_cohort-harm-broken">&nbsp;
+                <br>
+                <br>
+                Armor<input type="checkbox" name="attr_cohort-armor">
+                <br>
+                <br>
+                <h3>Edge</h3>
+                Fearsome <input type="checkbox" name="attr_cohort-edge-fearsome">
+                Independent <input type="checkbox" name="attr_cohort-edge-independent">
+                Loyal <input type="checkbox" name="attr_cohort-edge-loyal">
+                Tenacious <input type="checkbox" name="attr_cohort-edge-tenacious">
+                <br>
+                <h3>Flaw</h3>
+                Principled <input type="checkbox" name="attr_cohort-flaw-principled">
+                Savage <input type="checkbox" name="attr_cohort-flaw-savage">
+                Unreliable <input type="checkbox" name="attr_cohort-flaw-unreliable">
+                Wild <input type="checkbox" name="attr_cohort-flaw-wild">
+                <br>
+                
+                
+                
+              
+                
+            <fieldset class="repeating_cohort">
                  Type
                 <input type="text" name="attr_cohort-type" placeholder="Cohort Type">
                 <br>
@@ -376,7 +410,7 @@
         <br>
         <p><em>When you use a bandolier vial, choose an alchemical</em></p>
         <ul>
-            <li>Alcahest</li>
+            <li>Alcahest</li> 
             <li>Binding Oil</li>
             <li>Chokedust Poison</li>
             <li>Drift Oil</li>
